@@ -1,0 +1,334 @@
+
+.nav-col
+{
+    background-color: black !important;
+    color: white !important;
+    padding: 20px;
+   position: relative;
+   overflow-y: visible;
+    
+}
+.menu
+{
+    color: white !important;
+}
+.logo
+{
+    font-size: 18;
+    display: flex !important;
+    align-items: center ;
+    font-family: sans-serif ;
+}
+.logo i{
+   color: red;
+   
+   padding: 1px;
+}
+.logo  span:after{
+    content: "orld news";
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+ }
+ span
+ {
+    font-family: 'Libre Baskerville', serif;
+    
+    
+     font-size: 20
+     
+ }
+ .item img{
+     height: 150px;
+ }
+ .item{
+     height: 250px;
+     
+    
+     
+ }
+ body{
+     padding: 0;
+     margin: 0;
+     
+ }
+ .item{
+     border-radius:50px;
+     padding: 0px !important;
+ }
+ .lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    width: 13px;
+    background: red;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 6px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 26px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 45px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 6px;
+      height: 51px;
+    }
+    50%, 100% {
+      top: 19px;
+      height: 26px;
+    }
+  }
+  
+  #loading
+  {
+      height: 100vh;
+      width: 100%;
+       background-color: rgb(35, 35, 35);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10000000;
+  }
+  body{
+      overflow-x: hidden !important;
+      background-color: rgb(249, 247, 246);
+  }
+ .row-mod
+ {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+
+
+ }
+ .btn-search
+ {
+     position: absolute;
+     right: 150px;
+     top:25px;
+     background-color: red;
+     border-radius: 10px;
+
+
+ }
+
+
+ 
+ @media screen and (max-width:992px)
+ {
+    .btn-search
+    {
+        position: absolute !important;
+        right: 30% !important;
+        top:20px !important;
+        padding: 5px;
+   
+    }
+    .logo{
+      font-size: 12;
+    }
+    #searchConf
+    {
+      position: absolute;
+      left: 53% !important;
+
+    }
+    #closeSearch
+    {
+      position: absolute;
+      left: 72% !important;;
+    }
+ }
+ .btn-desired
+ {
+     background-color: rgb(29, 161, 242) !important;
+ }
+ .nav-col li a:hover
+ {
+   color: red !important;
+ }
+
+
+
+ #searchRes
+ {
+   width: 50%;
+   position: absolute;
+   left:0;
+   top:25;
+   border: 0px !important;
+   border-bottom:1px solid #424949 !important;
+   color: gray !important;
+   background-color: black !important;
+   outline: none;
+   
+ 
+
+ }
+ .dummy
+ {
+   height: 80px;
+   background-color: black !important;
+   position: relative;
+
+ 
+
+   
+   
+ }
+ .searchIn
+ {
+   position: absolute;
+   left:-2000;
+   display: flex;
+   flex-direction: row;
+   background-color: black !important;
+
+   width:100%;
+ }
+ .dummy button
+ {
+   padding: 10 20px;
+   border-radius: 10px;
+   border: 0px !important;
+ }
+ #searchConf
+ {
+   position: absolute;
+   left: 80%;
+   top:25px;
+   color: black;
+   background-image: linear-gradient(to right,#76D7C4 0%,#82E0AA  100%)
+   
+ }
+ #closeSearch
+ {
+  position: absolute;
+  left: 85%;
+  top:25px;
+  color: black;
+background-color: red;
+ }
+
+
+ #head
+ {
+   display: block;
+
+   width: 100%;
+   border-bottom: 1px solid black !important;
+   font-size: 36px;
+   color: rgb(119, 119, 119);
+ }
+ .item img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+ }
+ .content a{
+   color: black;
+ }
+ .container img:hover{
+   position: relative;
+   bottom: 10px;
+ }
+
+ .sk
+ {
+   width:100% !important;
+   margin: auto !important;
+ }
+ .content a
+ {
+   font-weight: 700;
+ }
+
+
+
+.img2,.img3
+{
+  height: 275px;
+  background-size: 100% 100%;
+  position: relative;
+}
+.img1
+{
+  height: 550px;
+  background-size: 100% 100%;
+  position: relative;
+
+}
+.img2 img ,.img3 img{
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.img1 img
+{
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.col-md-6, .col-md-12
+{
+  padding: 0px !important;
+  width: 100% !important;
+}
+
+.container-design
+{
+  width: 100% !important;
+  overflow: hidden;
+}
+#content1 a  ,#content2  a ,#content3  a
+{
+      text-decoration: none;
+      color: white;
+}
+#content1   ,#content2   ,#content3  
+{
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+  width:100%;
+  display: none;
+}
+#overlay,  #overlay2 , #overlay3
+{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(35, 35, 35,0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.head2
+{
+  display: block;
+
+   width: 100%;
+   border-bottom: 1px solid black;
+   font-size: 36px;
+   color: rgb(119, 119, 119);
+   display: none;
+}
