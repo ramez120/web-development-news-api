@@ -308,6 +308,8 @@ document.getElementById("search").addEventListener("click",function(){
                     homenews = JSON.parse(homereq.response);
                     homenews = homenews.articles;
                     document.querySelector(".head2").style.display="block";
+                    if( homenews[0].urlToImage == null || homenews[0].urlToImage == "")
+                    homenews[0].urlToImage = "images/news.png";
                      document.querySelector(".img1 img").src = homenews[0].urlToImage;
                      document.querySelector(".img2 img").src = homenews[1].urlToImage;
 
